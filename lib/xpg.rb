@@ -123,6 +123,10 @@ class XPGrow
     h
   end
 
+	def inspect
+    to_hash.inspect
+	end
+
   private
 
   def value(col)
